@@ -16,8 +16,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Subnetwork
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnetwork/master/_listings/aws-ec2/apis.md
 specificationVersion: "0.14"
 apis:
@@ -179,6 +179,72 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnetwork/master/_listings/aws-ec2/actiondisassociatesubnetcidrblock-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnetwork/master/_listings/aws-ec2/actiondisassociatesubnetcidrblock-get-openapi.md
+- name: AWS EC2 API - Describe Subnets
+  x-api-slug: actiondescribesubnets-get
+  description: Describes one or more of your subnets.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnetwork/master/_listings/aws-ec2/actiondescribesubnets-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnetwork/master/_listings/aws-ec2/actiondescribesubnets-get-openapi.md
+- name: AWS EC2 API - Create Spot Datafeed Subscription
+  x-api-slug: actioncreatespotdatafeedsubscription-get
+  description: Creates a data feed for Spot instances, enabling you to view Spot instance
+    usage logs.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnetwork/master/_listings/aws-ec2/actioncreatespotdatafeedsubscription-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnetwork/master/_listings/aws-ec2/actioncreatespotdatafeedsubscription-get-openapi.md
+- name: AWS EC2 API - Create Subnet
+  x-api-slug: actioncreatesubnet-get
+  description: Creates a subnet in an existing VPC.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnetwork/master/_listings/aws-ec2/actioncreatesubnet-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnetwork/master/_listings/aws-ec2/actioncreatesubnet-get-openapi.md
+- name: AWS EC2 API - Delete Subnet
+  x-api-slug: actiondeletesubnet-get
+  description: Deletes the specified subnet.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnetwork/master/_listings/aws-ec2/actiondeletesubnet-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnetwork/master/_listings/aws-ec2/actiondeletesubnet-get-openapi.md
+- name: AWS EC2 API - Modify Subnet Attribute
+  x-api-slug: actionmodifysubnetattribute-get
+  description: Modifies a subnet attribute.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnetwork/master/_listings/aws-ec2/actionmodifysubnetattribute-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnetwork/master/_listings/aws-ec2/actionmodifysubnetattribute-get-openapi.md
 - name: AWS EC2 API - Describe Subnets
   x-api-slug: actiondescribesubnets-get
   description: Describes one or more of your subnets.

@@ -119,6 +119,65 @@ paths:
           description: OK
       tags:
       - Subnets
+  /?Action=AssociateSubnetCidrBlock:
+    get:
+      summary: Associate Subnet Cidr Block
+      description: Associates a CIDR block with your subnet.
+      operationId: associatesubnetcidrblock
+      x-api-path-slug: actionassociatesubnetcidrblock-get
+      parameters:
+      - in: query
+        name: AvailabilityZone
+        description: The Availability Zone for the subnet
+        type: string
+      - in: query
+        name: CidrBlock
+        description: The IPv4 network range for the subnet, in CIDR notation
+        type: string
+      - in: query
+        name: DryRun
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,        and provides an error response
+        type: string
+      - in: query
+        name: Ipv6CidrBlock
+        description: The IPv6 network range for the subnet, in CIDR notation
+        type: string
+      - in: query
+        name: VpcId
+        description: The ID of the VPC
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - CIDR Block
+  /?Action=DisassociateSubnetCidrBlock:
+    get:
+      summary: Disassociate Subnet Cidr Block
+      description: Disassociates a CIDR block from a subnet.
+      operationId: disassociatesubnetcidrblock
+      x-api-path-slug: actiondisassociatesubnetcidrblock-get
+      parameters:
+      - in: query
+        name: AssignIpv6AddressOnCreation
+        description: Specify true to indicate that network interfaces created in the            specified
+          subnet should be assigned an IPv6 address
+        type: string
+      - in: query
+        name: MapPublicIpOnLaunch
+        description: Specify true to indicate that network interfaces created in the            specified
+          subnet should be assigned a public IPv4 address
+        type: string
+      - in: query
+        name: SubnetId
+        description: The ID of the subnet
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - CIDR Block
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

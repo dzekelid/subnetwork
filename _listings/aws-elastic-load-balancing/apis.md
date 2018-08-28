@@ -18,11 +18,26 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Subnetwork
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnetwork/master/_listings/aws-elastic-load-balancing/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Elastic Load Balancing API - Set Subnets
+  x-api-slug: actionsetsubnets-get
+  description: Enables the Availability Zone for the specified subnets for the specified
+    load balancer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png
+  humanURL: https://aws.amazon.com/elasticloadbalancing/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Servers, Performance, Availability, Stack Network,
+    API Service Provider, API Service Provider, API Provider, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnetwork/master/_listings/aws-elastic-load-balancing/actionsetsubnets-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/subnetwork/master/_listings/aws-elastic-load-balancing/actionsetsubnets-get-openapi.md
 - name: AWS Elastic Load Balancing API - Set Subnets
   x-api-slug: actionsetsubnets-get
   description: Enables the Availability Zone for the specified subnets for the specified
